@@ -1,0 +1,78 @@
+        .advantages {
+        background-color: #f6f6f6;
+        padding: 70px 0 60px 0;
+        &__text {
+            font-family: 'MuseoModerno';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 30px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: #000;
+            margin-bottom: 60px;
+        }
+
+        &__wrapper {
+            margin-top: 65px;
+            display: flex;
+            justify-content: space-around;
+          
+   
+        }
+        &__item {
+            max-width: 238px;
+            max-height: auto;
+            display: flex;
+            flex-direction: column;
+            
+            
+
+            img {
+                width: 70px;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 35px;
+            }
+        }
+        &__item_text {
+            font-family: 'MuseoModerno';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            color: #0D0D0D;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        &__item_text_1 {
+            height: auto;
+            font-family: 'MuseoModerno';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            text-align: center;
+            color: #0D0D0D;
+
+            a {
+            
+                color: red;
+            }
+            a:hover{
+                color: black;
+            }
+        }
+        &__icon {
+            &_animated {
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+        }
+
+    }
+   
+  

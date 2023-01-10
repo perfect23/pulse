@@ -1,0 +1,48 @@
+.reviews-wrapper {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.reviews-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    &__img {
+        max-width: 169px;
+        max-height: 169px;
+    }
+
+
+    &__text {
+        max-width: 680px;
+        margin-left: 61px;
+    }
+
+    &__name {
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+
+    &__descr {
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+
+    &__content {
+        margin-top: 10px;
+        font-family: 'MuseoModerno';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}
+
